@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.umca.tempapp.MainActivity">
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:context="com.example.umca.tempapp.MainActivity">
 
     <RelativeLayout
             android:layout_width="366dp"
@@ -41,5 +40,10 @@
             android:layout_alignLeft="@+id/editText"
             android:layout_alignStart="@+id/editText" />
     </RelativeLayout>
+    <Button
+            android:text="ScanBarCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="633dp"
+            tools:layout_editor_absoluteX="57dp" android:id="@+id/scan_barcode_button"/>
 
 </android.support.constraint.ConstraintLayout>
